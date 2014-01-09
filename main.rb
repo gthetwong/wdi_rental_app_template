@@ -6,7 +6,7 @@ building = Building.new("Waterfront Tower", "345 Embarcadero")
 
 def menu message
   puts `clear`
-  puts "*** Slum Lord v1.0 ***\n\n"
+  puts "*** Land Lord v1.0 ***\n\n"
 
   puts "#{message}\n\n" unless message.empty?
 
