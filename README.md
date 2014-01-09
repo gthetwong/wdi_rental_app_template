@@ -4,7 +4,7 @@ Land Lord 1.0
 
 ###Write a rental management app.
 
-Lot's of stuff is already provided to you. First, fork me (this repo). Forking creates a copy of the repo in your github account (we didn't really cover forking in the github lesson, but you get the idea). Next, clone forked repo from your github account. (Feel free to rename wdi_rental_app_template folder). *cd* into project folder and look around.
+Lot's of stuff is already provided to you. First, fork me (this repo). Forking creates a copy of the repo in your github account (we didn't really cover forking in the github lesson, but you get the idea). Next, clone forked repo from your github account. (aftre cloning, feel free to rename wdi_rental_app_template folder). *cd* into project folder and look around.
 
 **main.rb** contains the main program (duh). It controls the program flow, that is:
 
