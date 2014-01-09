@@ -24,7 +24,7 @@ Run main.rb. It doesn't do much, it simply displays the main menu and let's you 
 	
 **Good news:** The classes already exist and contain annotated method stubs, you simply need to implement. Look for comments throughout the code for guidance.
 
-Feel free to add menu options and extend the object model.		
+Bonus: Feel free to add menu options and extend the object model.		
 	
 
 
