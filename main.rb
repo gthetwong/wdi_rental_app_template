@@ -1,12 +1,13 @@
 require './building'
 require './unit'
 require './tenant'
+require 'pry'
 
 building = Building.new("Waterfront Tower", "345 Embarcadero")
 
 def menu message
   puts `clear`
-  puts "*** Land Lord v1.0 ***\n\n"
+  puts "*** LordLand, an app for Landlords v1.0 ***\n\n"
 
   puts "#{message}\n\n" unless message.empty?
 
@@ -28,6 +29,16 @@ while choice != 'q'
   case choice
   when "1"
     message += 'option 1'
+    puts "- Please enter unit info -"
+    unit_info = []
+    puts "Building : "
+    unit_info << gets.chomp
+     binding.pry
+    puts "Unit Number : "
+    unit_info << gets.to_i
+    puts "Square Footage : "
+   unit_info[1] = Unit.new(unit_info)
+
     # 1) ask user for unit info
     # 2) use info to create instance of unit.
     # 3) display message that unit was added
