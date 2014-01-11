@@ -3,12 +3,13 @@ class Unit
   attr_accessor :building, :number, :sqft, :rent, :tenant
 
   # initialize instance variables
-  def initialize(building, number, sqft, rent, tenant=nil)
-    @building = building
+  def initialize(number, sqft, rent)
+    @building = "Waterfront Tower"
     @number = number
     @sqft= sqft
     @rent = rent
     @tenant = tenant
+    puts "Unit added in database "
   end
 
   #Returns true if unit is available, otherwise false. The unit
@@ -20,5 +21,9 @@ class Unit
       return false
     end
   end
+
+  def sqft
+   puts @sqft
+ end 
 
 end
